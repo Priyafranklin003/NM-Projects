@@ -1,0 +1,272 @@
+{
+    "intents": [
+        {
+            "patterns": ["hi", "hello", "hey", "greetings"],
+            "responses": [
+                "Hello! Welcome to our learning platform. How can I assist you today?",
+                "Hi there! What can I help you with regarding our courses?",
+                "Greetings! I'm here to help with any questions about our online learning platform."
+            ]
+        },
+        {
+            "patterns": ["how to log in", "sign in help", "can't access my account"],
+            "responses": [
+                "You can log in using the 'Sign In' button at the top right of our website. Enter your email and password.",
+                "To access your account, go to our homepage and click 'Login' in the navigation bar."
+            ]
+        },
+        {
+            "patterns": ["forgot password", "reset my password", "can't remember password"],
+            "responses": [
+                "Click 'Forgot Password' on the login page. We'll send a reset link to your email.",
+                "You can reset your password by requesting a password reset email from the login screen."
+            ]
+        },
+        {
+            "patterns": ["account locked", "too many login attempts"],
+            "responses": [
+                "For security, accounts are temporarily locked after 5 failed attempts. Wait 30 minutes or reset your password.",
+                "Your account is temporarily locked. Please wait or contact support@yourplatform.com for immediate help."
+            ]
+        },
+        {
+            "patterns": ["what courses do you offer", "available courses", "course catalog"],
+            "responses": [
+                "We offer courses in programming, data science, business, and more. Visit our Courses page for the full catalog.",
+                "You can browse all available courses in our catalog section. We regularly add new subjects!",
+                "Courses like Data Analyst, Full Stack , Web development , DataScience And AI. "           ]
+        },
+        {
+            "patterns": ["recommend a course", "which course should I take", "suggest a course"],
+            "responses": [
+                "Based on your interests, I can recommend courses. Are you looking for technical, business, or creative subjects?",
+                "Our most popular courses are Python Fundamentals, Digital Marketing 101, and Introduction to AI."
+            ]
+        },
+        {
+            "patterns": ["how long are courses", "course duration", "length of course"],
+            "responses": [
+                "Course durations vary. Most are 4-8 weeks with 3-5 hours of study per week. Check individual course pages for details.",
+                "You'll find the estimated time commitment on each course description page."
+            ]
+        },
+        {
+            "patterns": ["course requirements", "prerequisites", "what do I need for a course"],
+            "responses": [
+                "Most beginner courses require no prior knowledge. Advanced courses may list prerequisites in their descriptions.",
+                "Check the 'Requirements' section on the course page for specific prerequisites."
+            ]
+        },
+        {
+            "patterns": ["how to enroll", "sign up for a course", "join a course"],
+            "responses": [
+                "Click 'Enroll Now' on any course page. You'll be guided through the enrollment process.",
+                "To enroll, select your course and follow the payment instructions. You'll get immediate access after payment."
+            ]
+        },
+        {
+            "patterns": ["enrollment deadline", "last date to join", "when does enrollment close"],
+            "responses": [
+                "Most courses have rolling enrollment - you can join anytime! Some cohort-based courses have specific start dates.",
+                "You can enroll in self-paced courses anytime. For instructor-led courses, check their specific schedules."
+            ]
+        },
+        {
+            "patterns": ["change course", "switch to different course", "transfer enrollment"],
+            "responses": [
+                "You can switch courses within 7 days of enrollment. Contact support@yourplatform.com for assistance.",
+                "Course transfers are possible before completing 20% of the material. Email us your request."
+            ]
+        },
+        {
+            "patterns": ["payment methods", "how to pay", "accepted payments"],
+            "responses": [
+                "We accept credit cards, PayPal, and bank transfers. All payments are secure.",
+                "You can pay via Visa, MasterCard, American Express, or PayPal during checkout."
+            ]
+        },
+        {
+            "patterns": ["refund policy", "get my money back", "cancel enrollment"],
+            "responses": [
+                "We offer a 14-day refund policy if you haven't completed more than 20% of the course.",
+                "You can request a full refund within 14 days of enrollment, provided you haven't completed significant course material."
+            ]
+        },
+        {
+            "patterns": ["discount", "coupon code", "promo code", "financial aid"],
+            "responses": [
+                "We offer occasional discounts. Check our newsletter for current promotions.",
+                "For financial aid, visit our Financial Assistance page and complete the application form."
+            ]
+        },
+        {
+            "patterns": ["invoice", "receipt", "payment confirmation"],
+            "responses": [
+                "You can download receipts from your Account Dashboard under 'Purchase History'.",
+                "All payment confirmations are emailed to you. Check your spam folder if you don't see it."
+            ]
+        },
+        {
+            "patterns": ["video not working", "content won't load", "playback issues"],
+            "responses": [
+                "Try refreshing the page, clearing your cache, or using a different browser. If issues persist, contact support.",
+                "Check your internet connection and try again. Most playback issues resolve with a browser refresh."
+            ]
+        },
+        {
+            "patterns": ["platform down", "website not working", "server error"],
+            "responses": [
+                "We're sorry for the inconvenience. Our team is likely already working on it. Check status.yourplatform.com for updates.",
+                "Try again in a few minutes. If the problem persists, it may be a wider issue we're addressing."
+            ]
+        },
+        {
+            "patterns": ["mobile app", "use on phone", "tablet support"],
+            "responses": [
+                "Yes! Our platform works on all devices. Download our iOS/Android app for the best mobile experience.",
+                "You can access courses from any device. The mobile app offers offline viewing capabilities."
+            ]
+        },
+        {
+            "patterns": ["system requirements", "browser support", "device compatibility"],
+            "responses": [
+                "Our platform works on Chrome, Firefox, Safari, and Edge. We recommend the latest browser versions.",
+                "You'll need a modern browser and stable internet. Specific courses may have additional requirements."
+            ]
+        },
+        {
+            "patterns": ["certificate", "completion badge", "proof of completion"],
+            "responses": [
+                "Certificates are awarded when you complete all course requirements with a passing grade.",
+                "You'll receive a digital certificate upon successful course completion, available in your dashboard."
+            ]
+        },
+        {
+            "patterns": ["is certificate valid", "accredited", "recognized"],
+            "responses": [
+                "Our certificates are widely recognized in industry. Some courses offer accredited certifications.",
+                "Many employers value our certificates. Some programs offer university credit or professional accreditation."
+            ]
+        },
+        {
+            "patterns": ["replace certificate", "lost certificate"],
+            "responses": [
+                "You can download your certificate anytime from your dashboard. Contact support if you need help.",
+                "All earned certificates remain in your account. You can re-download them whenever needed."
+            ]
+        },
+        {
+            "patterns": ["download content", "offline access", "save videos"],
+            "responses": [
+                "Our mobile app allows offline viewing. Web content requires internet access for copyright reasons.",
+                "You can download some materials for offline use through our mobile application."
+            ]
+        },
+        {
+            "patterns": ["interactive", "exercises", "quizzes", "practice"],
+            "responses": [
+                "Courses include quizzes, coding exercises, and peer-reviewed assignments for practical learning.",
+                "Yes! Most courses have hands-on exercises, discussion forums, and interactive elements."
+            ]
+        },
+        {
+            "patterns": ["community", "discussion", "forum", "ask questions"],
+            "responses": [
+                "Each course has discussion forums where you can interact with peers and instructors.",
+                "You can post questions in course forums or join our learner community at community.yourplatform.com."
+            ]
+        },
+        {
+            "patterns": ["contact instructor", "ask teacher", "message professor"],
+            "responses": [
+                "You can message instructors directly through the course platform or post in the discussion forums.",
+                "Instructors monitor course forums and often hold live Q&A sessions - check your course schedule."
+            ]
+        },
+        {
+            "patterns": ["instructor response time", "how long for reply"],
+            "responses": [
+                "Instructors typically respond within 24-48 hours, depending on the course and their availability.",
+                "Response times vary by course. Most instructors aim to reply within 2 business days."
+            ]
+        },
+        {
+            "patterns": ["track progress", "how much completed", "my advancement"],
+            "responses": [
+                "Your dashboard shows completion percentages for each course and which items you've finished.",
+                "Check the progress bar in each course to see which lessons and assignments you've completed."
+            ]
+        },
+        {
+            "patterns": ["deadlines", "pace", "self-paced", "schedule"],
+            "responses": [
+                "Most courses are self-paced. Some have suggested weekly schedules but no hard deadlines.",
+                "You control your learning speed! Only some cohort-based courses have fixed schedules."
+            ]
+        },
+        {
+            "patterns": ["update profile", "change information", "edit account"],
+            "responses": [
+                "You can update your name, email, and other details in Account Settings.",
+                "Profile changes can be made in the 'My Account' section of your dashboard."
+            ]
+        },
+        {
+            "patterns": ["delete account", "close account", "remove profile"],
+            "responses": [
+                "Account deletion is permanent. Go to Account Settings > Privacy to request deletion.",
+                "We're sorry to see you go! Contact support@yourplatform.com for account deletion requests."
+            ]
+        },
+        {
+            "patterns": ["job help", "career services", "resume review"],
+            "responses": [
+                "We offer career coaching and resume reviews for premium members. Check our Career Center.",
+                "Many courses include career preparation materials. We also host regular career webinars."
+            ]
+        },
+        {
+            "patterns": ["placement", "job guarantee", "hire", "recruiters"],
+            "responses": [
+                "While we don't guarantee jobs, many employers recruit from our platform. Build a strong portfolio!",
+                "We partner with companies that consider our top graduates for open positions."
+            ]
+        },
+        {
+            "patterns": ["contact support", "help desk", "real person"],
+            "responses": [
+                "For complex issues, email support@yourplatform.com or call +1-555-LEARN-NOW. We're here 24/7!",
+                "Our support team is available around the clock. Use the 'Contact Us' form for fastest response."
+            ]
+        },
+        {
+            "patterns": ["feedback", "suggestions", "improve platform"],
+            "responses": [
+                "We value your input! Share suggestions via the 'Feedback' button in your account dashboard.",
+                "Please email feedback@yourplatform.com with your ideas to help us improve."
+            ]
+        },
+        {
+            "patterns": ["privacy", "data security", "safe"],
+            "responses": [
+                "We take security seriously. All data is encrypted and we never share your information.",
+                "Your privacy is protected. Read our full policy at yourplatform.com/privacy."
+            ]
+        },
+        {
+            "patterns": ["what are you", "who are you", "your purpose"],
+            "responses": [
+                "I'm EduBot, your virtual assistant for the learning platform! I can answer questions about courses, accounts, and more.",
+                "I'm here to help you navigate our learning platform and answer your questions 24/7."
+            ]
+        },
+        {
+            "patterns": ["bye", "goodbye", "see you", "exit", "quit"],
+            "responses": [
+                "Goodbye! Happy learning - come back if you have more questions!",
+                "See you later! Don't hesitate to return if you need more help with your courses.",
+                "Have a great day! Remember, you can always come back for more learning support."
+            ]
+        }
+    ]
+}
